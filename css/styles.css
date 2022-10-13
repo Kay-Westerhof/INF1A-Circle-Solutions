@@ -1,0 +1,161 @@
+p{
+    font-family: Calibre, sans-serif;
+    color: #799DAB;
+}
+
+li a{
+    font-family: Calibre, sans-serif;
+    color: #799DAB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+#logo{
+    display: inline-block;
+    height: 10vh;
+    margin-left: 5%;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#menuflex{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    width: 100%;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+/* begin banner */
+.headerslider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    min-height: 300px;
+    font-size: 2.5em;
+    height: 30vw;
+    color: #fff;
+  }
+  
+.headerslider *::selection { 
+    background: transparent; 
+}
+
+.headerslider .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    animation-name: fade;
+    animation-duration: 2s;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerslider .slide:nth-child(1) {
+    display: block;
+}
+
+.headerslider .prev {
+    position:absolute;
+    padding: 20px;
+    cursor: pointer;
+    top:50%;
+    left:0%;
+    transform:translate(0%,-50%);
+}
+
+.headerslider .next {
+    position:absolute;
+    padding: 20px;
+    cursor: pointer;
+    top:50%;
+    right:0%;
+    transform:translate(0%,-50%);
+}
+
+.dots {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.dots .dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dots .active, .dots .dot:hover {
+    background-color: #fff;
+}
+
+/* Fading animation */
+.dots .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+/* End banner */
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 20vh;
+    background-color: #C7EAF8;
+}
+
+#footerlogo{
+    width: 50%;
+    margin: auto;
+    margin-left: 10%;
+}
+
+#copyright{
+    text-align: center;
+    margin-top: auto;
+}
+
+#footericons{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.footericon{
+    width: 10%;
+}
