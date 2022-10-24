@@ -188,3 +188,31 @@ footer{
 .footericon{
     width: 10%;
 }
+
+#whySection{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    background-color: #C7EAF8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#whyText{
+    grid-column: 2;
+}
+
+#whyText h1{
+    margin-bottom: 0;
+}
+
+#whyText p{
+    margin-top: 0;
+}
+
+#whySection img{
+    grid-column: 3;
+    grid-row: 1 / span 3;
+    width: 80%;
+    border-radius: 180%;
+    margin: auto;
+}
