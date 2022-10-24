@@ -195,7 +195,7 @@ footer{
     width: 10%;
 }
 
-<<<<<<< HEAD
+
 #contactheader{
 	text-align: center;
 }
@@ -229,7 +229,8 @@ input[type=submit]:hover {
 .containercontact {
   border-radius: 5px;
   padding: 20px;
-=======
+}
+
 #whySection{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
@@ -375,5 +376,4 @@ input[type=submit]:hover {
 	display: flex;
 	justify-content: space-evenly;
 	min-height: 500px;
->>>>>>> d86248bab9af9b119452617bd8178261308eded7
 }
