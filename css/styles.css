@@ -50,7 +50,7 @@ header{
     display: inline-block;
 }
 
-/* begin banner */
+
 .headerslider {
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@ header{
     background-color: #fff;
 }
 
-/* Fading animation */
+
 .dots .fade {
     animation-name: fade;
     animation-duration: 1s;
@@ -133,7 +133,7 @@ header{
     from {opacity: 0}
     to {opacity: 1}
 }
-/* End banner */
+
 
 #titleSection{
     width: 50%;
@@ -187,4 +187,39 @@ footer{
 
 .footericon{
     width: 10%;
+}
+
+#contactheader{
+	text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 4px solid #C7EAF8;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color:#C7EAF8;
+  color: grey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containercontact {
+  border-radius: 5px;
+  padding: 20px;
 }
