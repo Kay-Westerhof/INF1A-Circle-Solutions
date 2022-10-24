@@ -38,7 +38,42 @@
             </div>
         </div>
         <main>
+			<div id="contactheader">
+				<h1> contact </h1>
+			</div>
+				<?php
+					if($_SERVER["REQUEST_METHOD"] == "POST"){
+					$name = filter_input(INPUT_POST, "firstname");
+					$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+					$subject = filter_input(INPUT_POST, "subject");
+					$message = filter_input(INPUT_POST, "message");
+					$newsletter = filter_input(INPUT_POST, "subscribe");
+					$rick = $_POST["rick"];
+					$pass = filter_input(INPUT_POST, "password");
+
+					var_dump($rick);
+					}
+				?>
             
+					<div class="containercontact">
+					  <form action="contact.php">
+
+						<label for="name">Naam</label>
+						<input type="text" id="name" name="Naam" placeholder="Naam...">
+
+						<label for="mail">E-mail</label>
+						<input type="text" id="mail" name="E-mail" placeholder="E-mail...">
+ 
+						<label for="phonenumber">Telefoon nummer</label>
+						<input type="text" id="phonenumber" name="phonenumber" placeholder="Telefoon nummer...">
+
+						<label for="message">Bericht</label>
+						<textarea id="message" name="message" placeholder="..." style="height:200px"></textarea>
+
+						<input type="submit" value="Verzenden">
+
+					  </form>
+					</div>
             
 
         </main>
