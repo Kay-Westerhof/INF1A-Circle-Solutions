@@ -150,6 +150,7 @@ header{
 #title{
 	display: flex;
 	justify-content: center;
+	font-size: 2.5em;
 }
 
 .titleButton{
@@ -232,6 +233,7 @@ footer{
 
 #circleworkspaceTitle{
 	grid-column: 2;
+	font-size: 1.5em;
 }
 
 .circleworkspaceText{
