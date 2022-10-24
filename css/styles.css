@@ -147,6 +147,11 @@ header{
     margin-bottom: 0;
 }
 
+#title{
+	display: flex;
+	justify-content: center;
+}
+
 .titleButton{
     background-color: #C7EAF8;
     display: inline-block;
@@ -189,7 +194,129 @@ footer{
     width: 10%;
 }
 
-.spec-center{
-  text-align: center;
-  
+#whySection{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    background-color: #C7EAF8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#whyText{
+    grid-column: 2;
+}
+
+#whyText h1{
+    margin-bottom: 0;
+}
+
+#whyText p{
+    margin-top: 0;
+}
+
+#whySection img{
+    grid-column: 3;
+    grid-row: 1 / span 3;
+    width: 80%;
+    border-radius: 180%;
+    margin: auto;
+}
+
+/* Pakket cirkels */
+
+#grow{
+    height: 200px;
+    width: 200px;
+    background-color: #C7EAF8;
+    border-radius: 50%;
+    border: 2px solid #799DAB;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #799DAB;
+}
+ 
+#titeltext{
+    margin-top: 52px;
+}
+
+#knoptext{
+    color:transparent;
+}
+
+#grow:hover #knoptext{
+    position: relative;
+    z-index: 100;
+    color: #C7EAF8;
+    margin-top: 32.5px;
+    transition: all 0.3s;
+    transition-delay: 0.3s;
+}
+
+#grow:hover{
+    height: 225px;
+    width: 200px;
+    background-color: #C7EAF8;
+    border-radius: 50% 50% 12.5% 12.5%;
+    border: 2px solid #799DAB;
+    transition: height 0.3s, border-radius 0.3s;
+}
+
+#grow::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    margin-left:-75px;
+    margin-top:160px;   
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    transition: all 1s;
+}
+
+#grow:hover::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    margin-left:-75px;
+    margin-top:160px;   
+    background-color: #799DAB;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    transition: all 1s;
+    transition-delay: 0.3s;    
+}
+
+#grow:not(:hover){
+    height: 200px;
+    width: 200px;
+    background-color: #C7EAF8;
+    border-radius: 50%;
+    border: 2px solid #799DAB;
+    transition: height 0.3s, border-radius 0.3s;
+    transition-delay: 0.5s;
+}
+
+#pakketbuttons{
+	display: flex;
+	justify-content: space-evenly;
 }
