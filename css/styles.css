@@ -222,6 +222,24 @@ footer{
     margin: auto;
 }
 
+#pakkettenSection{
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#circleworkspaceTitle{
+	grid-column: 2;
+}
+
+.circleworkspaceText{
+	grid-column: 2;
+	margin: 1%;
+}
+
+
 /* Pakket cirkels */
 
 #grow{
@@ -302,7 +320,7 @@ footer{
     font-size: 13px;
     line-height: 16px;
     text-align: center;
-    transition: all 1s;
+    transition: all 0.5s;
     transition-delay: 0.3s;    
 }
 
@@ -316,7 +334,8 @@ footer{
     transition-delay: 0.5s;
 }
 
-#pakketbuttons{
+#pakketbuttonSection{
 	display: flex;
 	justify-content: space-evenly;
+	min-height: 500px;
 }
