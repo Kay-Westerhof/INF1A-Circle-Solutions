@@ -170,6 +170,7 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     height: 20vh;
     background-color: #C7EAF8;
+	margin-top: 7%;
 }
 
 #footerlogo{
@@ -241,6 +242,11 @@ footer{
 	margin: 1%;
 }
 
+#circledotsTitle{
+	grid-column: 2;
+	font-size: 1.5em;
+	margin-top: 30%;
+}
 
 /* Pakket cirkels */
 
