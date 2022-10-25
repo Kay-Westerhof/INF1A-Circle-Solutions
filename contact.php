@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <img src="img/logo.png" alt="Cirlce Solutions logo" id="logo">
+            <img src="img/logo.png" alt="Cirlce Solutions logo" id="logo" a href="index.html">
             <div id="menuflex">
                 <ul id="menu">
                     <li><a href="index.html">home</a></li>
