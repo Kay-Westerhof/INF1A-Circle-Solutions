@@ -228,15 +228,21 @@ input[type=submit] {
   color: #799DAB;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
-.containercontact {
+.containercontact{
   border-radius: 5px;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+aside{
+	font-size: 25px;
+	margin-left: 80px;
+	
 }
 
 #whySection{
