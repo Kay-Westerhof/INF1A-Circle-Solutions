@@ -553,7 +553,7 @@ a:visited {
     font-family: 'Calibre';
     font-size: 13px;
     text-align: center;
-    transition: all 1s;
+    transition: all 0.6s;
 }
 
 #grow:hover::before{
