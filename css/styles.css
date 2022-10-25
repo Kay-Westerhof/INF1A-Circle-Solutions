@@ -275,12 +275,6 @@ input[type=submit] {
     margin: auto;
 }
 
-<<<<<<< HEAD
-#FAQ{
-	list-style: none;
-	font-family: Calibre, sans-serif;
-    color: #799DAB;
-=======
 @media only screen and (max-width: 576px) {
     .titleSection{
         width: 80%;
@@ -314,7 +308,6 @@ input[type=submit] {
     #footericons{
         justify-content: space-around;
     }
->>>>>>> 6ec36a7937b6372c316903e43be60e3453c546db
 }
 
 #pakkettenSection{
