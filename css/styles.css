@@ -15,6 +15,11 @@ h1{
     color: #799DAB;
 }
 
+h3{
+	font-family: Calibre, sans-serif;
+    color: #799DAB;
+}
+
 header{
     display: flex;
     width: 100%;
@@ -37,6 +42,9 @@ header{
     display: flex;
     justify-content: space-between;
     width: 40%;
+}
+.titleSection a{
+    color: #799DAB	
 }
 
 #menuflex{
@@ -258,6 +266,12 @@ input[type=submit]:hover {
     width: 80%;
     border-radius: 180%;
     margin: auto;
+}
+
+#FAQ{
+	list-style: none;
+	font-family: Calibre, sans-serif;
+    color: #799DAB;
 }
 
 #pakkettenSection{
