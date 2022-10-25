@@ -279,7 +279,7 @@ input[type=submit]:hover {
 }
 
 #circledotsTitle{
-  display: grid;
+	display: grid;
 	grid-column: 2;
 	font-size: 1.5em;
 	margin-top: 10%;
@@ -296,42 +296,46 @@ a:visited {
 }
 
 #grow{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #C7EAF8;
     border-radius: 50%;
     border: 2px solid #799DAB;
     font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
     font-size: 13px;
-    line-height: 16px;
+    
     text-align: center;
     color: #799DAB;
 }
  
 #titeltext{
-    margin-top: 52px;
+    margin-top: 75px;
+	font-size: 2.5em;
+}
+
+#circleText{
+	font-size: 1.4em;
 }
 
 #knoptext{
     color:transparent;
+	font-size: 2em;
 }
 
 #grow:hover #knoptext{
     position: relative;
     z-index: 100;
     color: white;
-    margin-top: 32.5px;
+    margin-top: 65px;
     transition: all 0.3s;
     transition-delay: 0.3s;
 }
 
 #grow:hover{
-    height: 225px;
-    width: 200px;
+    height: 350px;
+    width: 300px;
     background-color: #C7EAF8;
-    border-radius: 50% 50% 12.5% 12.5%;
+    border-radius: 50% 50% 10% 10%;
     border: 2px solid #799DAB;
     transition: height 0.3s, border-radius 0.3s;
 }
@@ -340,18 +344,15 @@ a:visited {
     content: "";
     display: inline-block;
     position: absolute;
-    margin-left:-75px;
-    margin-top:160px;   
+    margin-left: -122px;
+    margin-top: 270px;   
     background-color: transparent;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 240px;
     border: 1px solid transparent;
     border-radius: 8px;
     font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
     font-size: 13px;
-    line-height: 16px;
     text-align: center;
     transition: all 1s;
 }
@@ -360,16 +361,14 @@ a:visited {
     content: "";
     display: inline-block;
     position: absolute;
-    margin-left:-75px;
-    margin-top:160px;   
+    margin-left: -122px;
+    margin-top:270px;   
     background-color: #799DAB;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 240px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Calibre';  
     font-size: 13px;
     line-height: 16px;
     text-align: center;
@@ -378,8 +377,8 @@ a:visited {
 }
 
 #grow:not(:hover){
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #C7EAF8;
     border-radius: 50%;
     border: 2px solid #799DAB;
@@ -390,5 +389,4 @@ a:visited {
 #pakketbuttonSection{
 	display: flex;
 	justify-content: space-evenly;
-	min-height: 500px;
 }
