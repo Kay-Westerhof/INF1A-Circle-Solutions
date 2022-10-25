@@ -310,6 +310,17 @@ input[type=submit] {
     }
 }
 
+#aboutuscirkels{
+    display: block;
+    margin: auto;
+}
+
+#aboutuscirkels img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
 #pakkettenSection{
 	display: grid;
 	grid-template-columns: repeat(3, 2fr);
