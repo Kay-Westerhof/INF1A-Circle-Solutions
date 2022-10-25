@@ -25,9 +25,9 @@
 
             <div class="slide" style="background-image: url(img/banner1.jpg);">
             </div>
-            <div class="slide" style="background-image: url(img/banner1.jpg);">
+            <div class="slide" style="background-image: url(img/banner2.jpg);">
             </div>
-            <div class="slide" style="background-image: url(img/banner1.jpg);">
+            <div class="slide" style="background-image: url(img/banner3.jpg);">
             </div>
             <div class="prev" onclick="changeSlide(-1)">&#10094;</div>
             <div class="next" onclick="changeSlide(1)">&#10095;</div>

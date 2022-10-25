@@ -241,29 +241,36 @@ input[type=submit] {
   color: #799DAB;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
-.containercontact {
+.containercontact{
   border-radius: 5px;
   padding-left: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.containercontact2 {
+aside{
+	font-size: 25px;
+	margin-left: 80px;
+	
+}
+
+/*.containercontact2{
 	
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	padding: 200px 0 0 100px;
-}
+}*/
 
 #kantoorafb{
 	width: 440px;
 	height: 262px;
 	
 }
+
 #whySection{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
