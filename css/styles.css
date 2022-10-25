@@ -35,6 +35,9 @@ header{
 #logo{
     display: inline-block;
     height: 10vh;
+}
+
+#logolink{
     margin-left: 5%;
 }
 
@@ -209,8 +212,14 @@ footer{
 	text-align: center;
 }
 
+label ,name , mail ,phonenumber ,message {
+	color: #799DAB;
+	font-size: 20px;
+}
+
 input[type=text], select, textarea {
   width: 100%; 
+  color: #799DAB;
   padding: 12px; 
   border: 4px solid #C7EAF8;
   box-sizing: border-box;
@@ -224,20 +233,18 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-color:#C7EAF8;
-  color: grey;
+  color: #799DAB;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
 .containercontact {
   border-radius: 5px;
   padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #whySection{
@@ -268,10 +275,46 @@ input[type=submit]:hover {
     margin: auto;
 }
 
+<<<<<<< HEAD
 #FAQ{
 	list-style: none;
 	font-family: Calibre, sans-serif;
     color: #799DAB;
+=======
+@media only screen and (max-width: 576px) {
+    .titleSection{
+        width: 80%;
+    }
+    #whySection{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    #whySection img{
+        grid-column: 2;
+        grid-row: 4 / span 3;
+    }
+    footer{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    #footerlogo{
+        width: 40%;
+        margin: auto;
+    }
+    #copyright{
+        grid-row: 3;
+    }
+    #footericons{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-right: 0;
+    }
+    #menu{
+        display: none;
+    }
+    #footericons{
+        justify-content: space-around;
+    }
+>>>>>>> 6ec36a7937b6372c316903e43be60e3453c546db
 }
 
 #pakkettenSection{
@@ -293,10 +336,171 @@ input[type=submit]:hover {
 }
 
 #circledotsTitle{
-  display: grid;
+	display: grid;
 	grid-column: 2;
 	font-size: 1.5em;
 	margin-top: 10%;
+}
+
+/* About Us Info Cirkels*/
+
+#circle1{
+    border-radius: 180%;
+    border-style: double;
+    border-width: 5px;
+    border-color: #799DAB;
+    width: 12vw;
+    height: 12vw;
+    text-align: center;
+    overflow: clip;
+    word-wrap: break-word;
+    color: #799DAB;
+    position:relative;
+    left:45%;
+}
+#circle2{
+    border-radius: 180%;
+    border-style: double;
+    border-width: 5px;
+    border-color: #799DAB;
+    width: 12vw;
+    height: 12vw;
+    text-align: center;
+    overflow: clip;
+    word-wrap: break-word;
+    color: #799DAB;
+    position:relative;
+    margin-top: 1%;
+    left:45%;
+}
+#circle3{
+    border-radius: 180%;
+    border-style: double;
+    border-width: 5px;
+    border-color: #799DAB;
+    width: 12vw;
+    height: 12vw;
+    text-align: center;
+    overflow: clip;
+    word-wrap: break-word;
+    color: #799DAB;
+    position: relative;
+    left:63%;
+    margin-top:-20%;
+}
+#circle4{
+    border-radius: 180%;
+    border-style: double;
+    border-width: 5px;
+    border-color: #799DAB;
+    width: 12vw;
+    height: 12vw;
+    text-align: center;
+    overflow: clip;
+    word-wrap: break-word;
+    color: #799DAB;
+    position: relative;
+    left:28%;
+    margin-top: -17%;
+}
+.circletitle{ 
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 20%;
+}
+#circle1text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+}
+#circle2text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top:-10px;
+}
+#circle3text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    margin-top:-10px;
+}
+#circle4text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+}
+.line1 {
+    width: 7.7vw;
+    height: 5vw;
+    border-bottom: 0.33444816053511706vw double #799DAB;
+    transform:
+        translateY(-1.3377926421404682vw)
+        translateX(0.33444816053511706vw)
+        rotate(32deg); 
+    position: absolute;
+    left:39.9%;
+    margin-top: -1.5%;
+}
+
+.line2 {
+    width: 6.8vw;
+    height: 5vw;
+    border-bottom: 0.33444816053511706vw double #799DAB;
+    transform:
+        translateY(-1.3377926421404682vw)
+        translateX(0.33444816053511706vw)
+        rotate(153deg); 
+    position: absolute;
+    left: 58%;
+    margin-top: -8.2%;
+}
+.line3 {
+    width: 6.4vw;
+    height: 5vw;
+    border-bottom: 0.33444816053511706vw double #799DAB;
+    transform:
+        translateY(-1.3377926421404682vw)
+        translateX(0.33444816053511706vw)
+        rotate(22deg); 
+    position: absolute;
+    left:57.8%;
+    margin-top: -13.5%;
+}
+.line4 {
+    width: 4.5vw;
+    height: 5vw;
+    border-bottom: 0.33444816053511706vw double #799DAB;
+    transform:
+        translateY(-1.3377926421404682vw)
+        translateX(0.33444816053511706vw)
+        rotate(167deg); 
+    position: absolute;
+    left: 41%;
+    margin-top: -6.2%;
 }
 
 /* Pakket cirkels */
@@ -310,42 +514,45 @@ a:visited {
 }
 
 #grow{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #C7EAF8;
     border-radius: 50%;
     border: 2px solid #799DAB;
     font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 13px; 
     text-align: center;
     color: #799DAB;
 }
  
 #titeltext{
-    margin-top: 52px;
+    margin-top: 75px;
+	font-size: 2.5em;
+}
+
+#circleText{
+	font-size: 1.4em;
 }
 
 #knoptext{
     color:transparent;
+	font-size: 2em;
 }
 
 #grow:hover #knoptext{
     position: relative;
     z-index: 100;
     color: white;
-    margin-top: 32.5px;
+    margin-top: 35px;
     transition: all 0.3s;
     transition-delay: 0.3s;
 }
 
 #grow:hover{
-    height: 225px;
-    width: 200px;
+    height: 350px;
+    width: 300px;
     background-color: #C7EAF8;
-    border-radius: 50% 50% 12.5% 12.5%;
+    border-radius: 50% 50% 10% 10%;
     border: 2px solid #799DAB;
     transition: height 0.3s, border-radius 0.3s;
 }
@@ -354,36 +561,31 @@ a:visited {
     content: "";
     display: inline-block;
     position: absolute;
-    margin-left:-75px;
-    margin-top:160px;   
+    margin-left: -122px;
+    margin-top: 261px;   
     background-color: transparent;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 240px;
     border: 1px solid transparent;
     border-radius: 8px;
     font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
     font-size: 13px;
-    line-height: 16px;
     text-align: center;
-    transition: all 1s;
+    transition: all 0.6s;
 }
 
 #grow:hover::before{
     content: "";
     display: inline-block;
     position: absolute;
-    margin-left:-75px;
-    margin-top:160px;   
+    margin-left: -122px;
+    margin-top:261px;   
     background-color: #799DAB;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 240px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Calibre';  
     font-size: 13px;
     line-height: 16px;
     text-align: center;
@@ -392,8 +594,8 @@ a:visited {
 }
 
 #grow:not(:hover){
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: #C7EAF8;
     border-radius: 50%;
     border: 2px solid #799DAB;
@@ -404,5 +606,30 @@ a:visited {
 #pakketbuttonSection{
 	display: flex;
 	justify-content: space-evenly;
-	min-height: 500px;
 }
+
+.pakkettentekst{
+	font-size: 1.4em;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
