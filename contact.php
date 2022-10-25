@@ -73,7 +73,14 @@
 						<input type="submit" value="Verzenden">
 
 					  </form>
+					  
+					  <div class="containercontact2">
+						<img id="kantoorafb" src="img/kantoor.png" alt="kantoor">
+					
+						</div>
 					</div>
+					
+					
             
 
         </main>
