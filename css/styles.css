@@ -230,6 +230,8 @@ input[type=submit]:hover {
 .containercontact {
   border-radius: 5px;
   padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #whySection{
