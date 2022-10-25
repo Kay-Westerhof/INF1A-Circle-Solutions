@@ -15,6 +15,11 @@ h1{
     color: #799DAB;
 }
 
+h3{
+	font-family: Calibre, sans-serif;
+    color: #799DAB;
+}
+
 header{
     display: flex;
     width: 100%;
@@ -40,6 +45,9 @@ header{
     display: flex;
     justify-content: space-between;
     width: 40%;
+}
+.titleSection a{
+    color: #799DAB	
 }
 
 #menuflex{
@@ -160,7 +168,7 @@ header{
     background-color: #C7EAF8;
     display: inline-block;
     width: 20%;
-    padding-top: 1%;
+    padding-top: 1.5%;
     padding-bottom: 1%;
     border-radius: 90px;
     margin-left: 1%;
@@ -234,17 +242,32 @@ input[type=submit] {
 
 .containercontact{
   border-radius: 5px;
-  padding: 20px;
+  padding-left: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
+<<<<<<< HEAD
 aside{
 	font-size: 25px;
 	margin-left: 80px;
 	
 }
 
+=======
+.containercontact2 {
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 200px 0 0 100px;
+}
+
+#kantoorafb{
+	width: 440px;
+	height: 262px;
+	
+}
+>>>>>>> 23c48952da25f829f6ba7b9952a79db461518ca8
 #whySection{
     display: grid;
     grid-template-columns: repeat(4, 2fr);
@@ -308,6 +331,17 @@ aside{
     }
 }
 
+#aboutuscirkels{
+    display: block;
+    margin: auto;
+}
+
+#aboutuscirkels img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
 #pakkettenSection{
 	display: grid;
 	grid-template-columns: repeat(3, 2fr);
@@ -333,167 +367,6 @@ aside{
 	margin-top: 10%;
 }
 
-/* About Us Info Cirkels*/
-
-#circle1{
-    border-radius: 180%;
-    border-style: double;
-    border-width: 5px;
-    border-color: #799DAB;
-    width: 12vw;
-    height: 12vw;
-    text-align: center;
-    overflow: clip;
-    word-wrap: break-word;
-    color: #799DAB;
-    position:relative;
-    left:45%;
-}
-#circle2{
-    border-radius: 180%;
-    border-style: double;
-    border-width: 5px;
-    border-color: #799DAB;
-    width: 12vw;
-    height: 12vw;
-    text-align: center;
-    overflow: clip;
-    word-wrap: break-word;
-    color: #799DAB;
-    position:relative;
-    margin-top: 1%;
-    left:45%;
-}
-#circle3{
-    border-radius: 180%;
-    border-style: double;
-    border-width: 5px;
-    border-color: #799DAB;
-    width: 12vw;
-    height: 12vw;
-    text-align: center;
-    overflow: clip;
-    word-wrap: break-word;
-    color: #799DAB;
-    position: relative;
-    left:63%;
-    margin-top:-20%;
-}
-#circle4{
-    border-radius: 180%;
-    border-style: double;
-    border-width: 5px;
-    border-color: #799DAB;
-    width: 12vw;
-    height: 12vw;
-    text-align: center;
-    overflow: clip;
-    word-wrap: break-word;
-    color: #799DAB;
-    position: relative;
-    left:28%;
-    margin-top: -17%;
-}
-.circletitle{ 
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 20px;
-    margin-top: 20%;
-}
-#circle1text{
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 15px;
-}
-#circle2text{
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 13px;
-    margin-top:-10px;
-}
-#circle3text{
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 15px;
-    margin-top:-10px;
-}
-#circle4text{
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 15px;
-}
-.line1 {
-    width: 7.7vw;
-    height: 5vw;
-    border-bottom: 0.33444816053511706vw double #799DAB;
-    transform:
-        translateY(-1.3377926421404682vw)
-        translateX(0.33444816053511706vw)
-        rotate(32deg); 
-    position: absolute;
-    left:39.9%;
-    margin-top: -1.5%;
-}
-
-.line2 {
-    width: 6.8vw;
-    height: 5vw;
-    border-bottom: 0.33444816053511706vw double #799DAB;
-    transform:
-        translateY(-1.3377926421404682vw)
-        translateX(0.33444816053511706vw)
-        rotate(153deg); 
-    position: absolute;
-    left: 58%;
-    margin-top: -8.2%;
-}
-.line3 {
-    width: 6.4vw;
-    height: 5vw;
-    border-bottom: 0.33444816053511706vw double #799DAB;
-    transform:
-        translateY(-1.3377926421404682vw)
-        translateX(0.33444816053511706vw)
-        rotate(22deg); 
-    position: absolute;
-    left:57.8%;
-    margin-top: -13.5%;
-}
-.line4 {
-    width: 4.5vw;
-    height: 5vw;
-    border-bottom: 0.33444816053511706vw double #799DAB;
-    transform:
-        translateY(-1.3377926421404682vw)
-        translateX(0.33444816053511706vw)
-        rotate(167deg); 
-    position: absolute;
-    left: 41%;
-    margin-top: -6.2%;
-}
-
 /* Pakket cirkels */
 
 a:link {
@@ -504,7 +377,7 @@ a:visited {
   text-decoration: none;
 }
 
-#grow{
+.grow{
     height: 300px;
     width: 300px;
     background-color: #C7EAF8;
@@ -516,21 +389,21 @@ a:visited {
     color: #799DAB;
 }
  
-#titeltext{
+.titeltext{
     margin-top: 75px;
 	font-size: 2.5em;
 }
 
-#circleText{
+.circleText{
 	font-size: 1.4em;
 }
 
-#knoptext{
+.knoptext{
     color:transparent;
 	font-size: 2em;
 }
 
-#grow:hover #knoptext{
+.grow:hover .knoptext{
     position: relative;
     z-index: 100;
     color: white;
@@ -539,7 +412,7 @@ a:visited {
     transition-delay: 0.3s;
 }
 
-#grow:hover{
+.grow:hover{
     height: 350px;
     width: 300px;
     background-color: #C7EAF8;
@@ -548,7 +421,7 @@ a:visited {
     transition: height 0.3s, border-radius 0.3s;
 }
 
-#grow::before{
+.grow::before{
     content: "";
     display: inline-block;
     position: absolute;
@@ -565,7 +438,7 @@ a:visited {
     transition: all 0.6s;
 }
 
-#grow:hover::before{
+.grow:hover::before{
     content: "";
     display: inline-block;
     position: absolute;
@@ -584,7 +457,7 @@ a:visited {
     transition-delay: 0.3s;    
 }
 
-#grow:not(:hover){
+.grow:not(:hover){
     height: 300px;
     width: 300px;
     background-color: #C7EAF8;
