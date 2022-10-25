@@ -30,6 +30,9 @@ header{
 #logo{
     display: inline-block;
     height: 10vh;
+}
+
+#logolink{
     margin-left: 5%;
 }
 
