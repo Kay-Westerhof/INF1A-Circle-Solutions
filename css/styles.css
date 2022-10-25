@@ -15,6 +15,11 @@ h1{
     color: #799DAB;
 }
 
+h3{
+	font-family: Calibre, sans-serif;
+    color: #799DAB;
+}
+
 header{
     display: flex;
     width: 100%;
@@ -30,6 +35,9 @@ header{
 #logo{
     display: inline-block;
     height: 10vh;
+}
+
+#logolink{
     margin-left: 5%;
 }
 
@@ -37,6 +45,9 @@ header{
     display: flex;
     justify-content: space-between;
     width: 40%;
+}
+.titleSection a{
+    color: #799DAB	
 }
 
 #menuflex{
@@ -157,7 +168,7 @@ header{
     background-color: #C7EAF8;
     display: inline-block;
     width: 20%;
-    padding-top: 1%;
+    padding-top: 1.5%;
     padding-bottom: 1%;
     border-radius: 90px;
     margin-left: 1%;
@@ -201,8 +212,14 @@ footer{
 	text-align: center;
 }
 
+label ,name , mail ,phonenumber ,message {
+	color: #799DAB;
+	font-size: 20px;
+}
+
 input[type=text], select, textarea {
   width: 100%; 
+  color: #799DAB;
   padding: 12px; 
   border: 4px solid #C7EAF8;
   box-sizing: border-box;
@@ -216,15 +233,11 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-color:#C7EAF8;
-  color: grey;
+  color: #799DAB;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
 }
 
 .containercontact {
@@ -274,6 +287,52 @@ input[type=submit]:hover {
     margin: auto;
 }
 
+@media only screen and (max-width: 576px) {
+    .titleSection{
+        width: 80%;
+    }
+    #whySection{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    #whySection img{
+        grid-column: 2;
+        grid-row: 4 / span 3;
+    }
+    footer{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    #footerlogo{
+        width: 40%;
+        margin: auto;
+    }
+    #copyright{
+        grid-row: 3;
+    }
+    #footericons{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-right: 0;
+    }
+    #menu{
+        display: none;
+    }
+    #footericons{
+        justify-content: space-around;
+    }
+}
+
+#aboutuscirkels{
+    display: block;
+    margin: auto;
+}
+
+#aboutuscirkels img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
 #pakkettenSection{
 	display: grid;
 	grid-template-columns: repeat(3, 2fr);
@@ -293,7 +352,7 @@ input[type=submit]:hover {
 }
 
 #circledotsTitle{
-  display: grid;
+	display: grid;
 	grid-column: 2;
 	font-size: 1.5em;
 	margin-top: 10%;
@@ -309,81 +368,79 @@ a:visited {
   text-decoration: none;
 }
 
-#grow{
-    height: 200px;
-    width: 200px;
+.grow{
+    height: 300px;
+    width: 300px;
     background-color: #C7EAF8;
     border-radius: 50%;
     border: 2px solid #799DAB;
     font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 16px;
+    font-size: 13px; 
     text-align: center;
     color: #799DAB;
 }
  
-#titeltext{
-    margin-top: 52px;
+.titeltext{
+    margin-top: 75px;
+	font-size: 2.5em;
 }
 
-#knoptext{
+.circleText{
+	font-size: 1.4em;
+}
+
+.knoptext{
     color:transparent;
+	font-size: 2em;
 }
 
-#grow:hover #knoptext{
+.grow:hover .knoptext{
     position: relative;
     z-index: 100;
     color: white;
-    margin-top: 32.5px;
+    margin-top: 35px;
     transition: all 0.3s;
     transition-delay: 0.3s;
 }
 
-#grow:hover{
-    height: 225px;
-    width: 200px;
+.grow:hover{
+    height: 350px;
+    width: 300px;
     background-color: #C7EAF8;
-    border-radius: 50% 50% 12.5% 12.5%;
+    border-radius: 50% 50% 10% 10%;
     border: 2px solid #799DAB;
     transition: height 0.3s, border-radius 0.3s;
 }
 
-#grow::before{
+.grow::before{
     content: "";
     display: inline-block;
     position: absolute;
-    margin-left:-75px;
-    margin-top:160px;   
+    margin-left: -122px;
+    margin-top: 261px;   
     background-color: transparent;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 240px;
     border: 1px solid transparent;
     border-radius: 8px;
     font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
     font-size: 13px;
-    line-height: 16px;
     text-align: center;
-    transition: all 1s;
+    transition: all 0.6s;
 }
 
-#grow:hover::before{
+.grow:hover::before{
     content: "";
     display: inline-block;
     position: absolute;
-    margin-left:-75px;
-    margin-top:160px;   
+    margin-left: -122px;
+    margin-top:261px;   
     background-color: #799DAB;
-    height: 50px;
-    width: 150px;
+    height: 60px;
+    width: 240px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Calibre';  
     font-size: 13px;
     line-height: 16px;
     text-align: center;
@@ -391,9 +448,9 @@ a:visited {
     transition-delay: 0.3s;    
 }
 
-#grow:not(:hover){
-    height: 200px;
-    width: 200px;
+.grow:not(:hover){
+    height: 300px;
+    width: 300px;
     background-color: #C7EAF8;
     border-radius: 50%;
     border: 2px solid #799DAB;
@@ -404,5 +461,30 @@ a:visited {
 #pakketbuttonSection{
 	display: flex;
 	justify-content: space-evenly;
-	min-height: 500px;
 }
+
+.pakkettentekst{
+	font-size: 1.4em;
+	text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

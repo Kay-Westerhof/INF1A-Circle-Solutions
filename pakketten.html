@@ -11,7 +11,7 @@
     </head>
     <body>
         <header>
-            <img src="img/logo.png" alt="Cirlce Solutions logo" id="logo" a href="index.html">
+            <a href="index.html"><img src="img/logo.png" alt="Cirlce Solutions logo" id="logo"></a>
             <div id="menuflex">
                 <ul id="menu">
                     <li><a href="index.html">home</a></li>
@@ -25,9 +25,9 @@
 
             <div class="slide" style="background-image: url(img/banner1.jpg);">
             </div>
-            <div class="slide" style="background-image: url(img/banner1.jpg);">
+            <div class="slide" style="background-image: url(img/banner2.jpg);">
             </div>
-            <div class="slide" style="background-image: url(img/banner1.jpg);">
+            <div class="slide" style="background-image: url(img/banner3.jpg);">
             </div>
             <div class="prev" onclick="changeSlide(-1)">&#10094;</div>
             <div class="next" onclick="changeSlide(1)">&#10095;</div>
@@ -40,15 +40,27 @@
         <main>           
             <h1 id="title">pakketten</h1>
 			<div id="pakketbuttonSection">
-				<div id="grow">
-					<h2 id="titeltext">circle workspace</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur purus justo, sit amet gravida lacus aliquam ut.</p>
-					<a href="pakket1.html"><h2 id="knoptext">meer informatie</h2></a>
+				<div class="grow">
+					<h2 class="titeltext">circle werkruimte</h2>
+					<p class="circleText">
+						<ul class="pakkettentekst">
+							<li>app beheer</li>
+							<li>binnen enkele minuten gemaakt</li>
+							<li>1-50 gebruikers €140,00 per maand</li>
+							<li>51-500 gebruikers €760,00 per maand</li>
+						</ul>					
+					<a href="pakket1.html"><h2 class="knoptext">meer informatie</h2></a>
 				</div>
-				<div id="grow">
-					<h2 id="titeltext">circle D.O.T.S.</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur purus justo, sit amet gravida lacus aliquam ut.</p>
-					<a href="pakket2.html"><h2 id="knoptext">meer informatie</h2></a>	
+				<div class="grow">
+					<h2 class="titeltext">circle D.O.T.S.</h2>
+					<p class="circleText">
+					<ul class="pakkettentekst">
+						<li>interne communicatie</li>
+						<li>beheer van kennis</li>
+						<li>1-50 gebruikers €180,00 per maand</li>
+						<li>51-500 gebruikers €799,00 per maand</li>
+					</ul>				
+					<a href="pakket2.html"><h2 class="knoptext">meer informatie</h2></a>	
 				</div>
 			</div>
         </main>
