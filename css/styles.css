@@ -247,15 +247,13 @@ input[type=submit] {
   grid-template-columns: 1fr 1fr;
 }
 
-<<<<<<< HEAD
 aside{
 	font-size: 25px;
 	margin-left: 80px;
 	
 }
 
-=======
-.containercontact2 {
+.containercontact2{
 	
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -267,7 +265,7 @@ aside{
 	height: 262px;
 	
 }
->>>>>>> 23c48952da25f829f6ba7b9952a79db461518ca8
+
 #whySection{
     display: grid;
     grid-template-columns: repeat(4, 2fr);

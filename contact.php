@@ -74,9 +74,15 @@
 
 					  </form>
 					  
-					  <div class="containercontact2">
-						<img id="kantoorafb" src="img/kantoor.png" alt="kantoor">
-					
+					  
+					  	<aside>
+							<p> circlesolutions.com </p>
+							<p> hi@circlesolutions.com </p>
+							<p> +31 612345678 </p>
+						
+						</aside>
+						<div class="containercontact2">
+							<img id="kantoorafb" src="img/kantoor.png" alt="kantoor">
 						</div>
 					</div>
 					
