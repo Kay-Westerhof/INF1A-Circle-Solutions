@@ -15,6 +15,11 @@ h1{
     color: #799DAB;
 }
 
+h3{
+	font-family: Calibre, sans-serif;
+    color: #799DAB;
+}
+
 header{
     display: flex;
     width: 100%;
@@ -30,6 +35,9 @@ header{
 #logo{
     display: inline-block;
     height: 10vh;
+}
+
+#logolink{
     margin-left: 5%;
 }
 
@@ -37,6 +45,9 @@ header{
     display: flex;
     justify-content: space-between;
     width: 40%;
+}
+.titleSection a{
+    color: #799DAB	
 }
 
 #menuflex{
@@ -264,6 +275,12 @@ input[type=submit] {
     margin: auto;
 }
 
+<<<<<<< HEAD
+#FAQ{
+	list-style: none;
+	font-family: Calibre, sans-serif;
+    color: #799DAB;
+=======
 @media only screen and (max-width: 576px) {
     .titleSection{
         width: 80%;
@@ -297,6 +314,7 @@ input[type=submit] {
     #footericons{
         justify-content: space-around;
     }
+>>>>>>> 6ec36a7937b6372c316903e43be60e3453c546db
 }
 
 #pakkettenSection{
