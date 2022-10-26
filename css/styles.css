@@ -56,8 +56,8 @@ header{
 #menu{
 	font-size: 1.2em;
     display: flex;
-    justify-content: space-between;
-    width: 40%;
+    justify-content: flex-end;
+    width: 100%;
 }
 .titleSection a{
     color: #799DAB	
@@ -72,6 +72,7 @@ header{
 
 #menu li{
     display: inline-block;
+    margin-right: 2%;
 }
 
 @media only screen and (max-witdh: 576px) {
