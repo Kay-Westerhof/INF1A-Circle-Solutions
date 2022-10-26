@@ -359,20 +359,17 @@ aside{
 	text-align: center;
 }
 
-#circleworkspaceTitle{
-	grid-column: 2;
-	font-size: 1.5em;
-}
+
 
 .circleworkspaceText{
 	grid-column: 2;
 	margin: 1%;
 }
 
-#circledotsTitle{
+.pakkettenTitle{
 	display: grid;
 	grid-column: 2;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-top: 10%;
 }
 
@@ -403,31 +400,9 @@ a:visited {
 	font-size: 2.5em;
 }
 
-.circleText{
-	font-size: 1.4em;
-}
-
 .knoptext{
     color:transparent;
 	font-size: 2em;
-}
-
-.grow:hover .knoptext{
-    position: relative;
-    z-index: 100;
-    color: white;
-    margin-top: 35px;
-    transition: all 0.3s;
-    transition-delay: 0.3s;
-}
-
-.grow:hover{
-    height: 350px;
-    width: 300px;
-    background-color: #C7EAF8;
-    border-radius: 50% 50% 10% 10%;
-    border: 2px solid #799DAB;
-    transition: height 0.3s, border-radius 0.3s;
 }
 
 .grow::before{
@@ -447,58 +422,130 @@ a:visited {
     transition: all 0.6s;
 }
 
-.grow:hover::before{
-    content: "";
-    display: inline-block;
-    position: absolute;
-    margin-left: -122px;
-    margin-top:261px;   
-    background-color: #799DAB;
-    height: 60px;
-    width: 240px;
-    border: 1px solid #FFFFFF;
-    border-radius: 8px;
-    font-family: 'Calibre';  
-    font-size: 13px;
-    line-height: 16px;
-    text-align: center;
-    transition: all 0.5s;
-    transition-delay: 0.3s;    
-}
-
-.grow:not(:hover){
-    height: 300px;
-    width: 300px;
-    background-color: #C7EAF8;
-    border-radius: 50%;
-    border: 2px solid #799DAB;
-    transition: height 0.3s, border-radius 0.3s;
-    transition-delay: 0.5s;
-}
-
 #pakketbuttonSection{
 	display: flex;
 	justify-content: space-evenly;
-	min-height: 360px;
+	min-height: 380px;
+	margin-top: 1%;
 }
 
 .pakkettentekst{
 	font-size: 1.4em;
 	text-align: left;
 }
+@media only screen and (min-width: 576px){
+    .grow:hover .knoptext{
+        position: relative;
+        z-index: 100;
+        color: white;
+        margin-top: 35px;
+        transition: all 0.3s;
+        transition-delay: 0.3s;
+    }
+    
+    .grow:hover{
+        height: 350px;
+        width: 300px;
+        background-color: #C7EAF8;
+        border-radius: 50% 50% 10% 10%;
+        border: 2px solid #799DAB;
+        transition: height 0.3s, border-radius 0.3s;
+    }
 
-#pakkettenTitle{
-	display: flex;
-	justify-content: center;
-	font-size: 2em;
+    .grow:hover::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        margin-left: -122px;
+        margin-top:261px;   
+        background-color: #799DAB;
+        height: 60px;
+        width: 240px;
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
+        font-family: 'Calibre';  
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        transition: all 0.5s;
+        transition-delay: 0.3s;    
+    }
+    
+    .grow:not(:hover){
+        height: 300px;
+        width: 300px;
+        background-color: #C7EAF8;
+        border-radius: 50%;
+        border: 2px solid #799DAB;
+        transition: height 0.3s, border-radius 0.3s;
+        transition-delay: 0.5s;
+    }
 }
+@media only screen and (max-width: 576px) {
+    .grow{
+        height: 225px;
+        min-width: 220px;
+        max-width: 220px;
+        background-color: #C7EAF8;
+        border-radius: 50% 50% 12.5% 12.5%;
+        border: 2px solid #799DAB;
+        font-family: 'Calibre';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: #799DAB;
+    }
+     
+    .titeltext{
+        margin-top: 45px;
+        font-size:20px;
+    }
+    
+    .knoptext{
+        color:transparent;
+    }
 
-#pakkettenContent{
-	display: grid;
-	margin-left: 300px;
+    .pakkettentekst{
+        font-size: 11px;
+        text-align: left;
+    }
+    
+    .grow .knoptext{
+        position: relative;
+        z-index: 100;
+        color: #C7EAF8;
+        margin-top: 38px;
+        font-size: 20px;
+    }
+    
+    .grow::before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        margin-left:-75px;
+        margin-top:160px;   
+        background-color: #799DAB;
+        height: 50px;
+        width: 150px;
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
+        font-family: 'Calibre';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center; 
+    }
+    #pakketbuttonSection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        min-height: 380px;
+        margin-top: 1%;
+    }
 }
-
-
 
 
 
