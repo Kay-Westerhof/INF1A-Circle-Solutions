@@ -242,7 +242,9 @@ footer{
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
-  border-radius: 7%;
+  border-radius: 90px;
+  border: none;
+  text-align: center;
 }
 
 .next2 {
@@ -251,7 +253,9 @@ footer{
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
-  border-radius: 7%;
+  border-radius: 90px;
+  border: none;
+  text-align: center;
 }
 
 label ,name , mail ,phonenumber ,message {
