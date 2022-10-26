@@ -10,6 +10,13 @@ li a{
     text-decoration: none;
 }
 
+ul{
+	font-family: Calibre, sans-serif;
+    color: #799DAB;
+	list-style-type: none;
+
+}
+
 h1{
     font-family: Calibre, sans-serif;
     color: #799DAB;
@@ -222,6 +229,7 @@ label ,name , mail ,phonenumber ,message {
 	color: #799DAB;
 	font-size: 20px;
 }
+
 
 input[type=text], select, textarea {
   width: 100%; 
