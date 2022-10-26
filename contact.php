@@ -10,17 +10,33 @@
         <script src="js/banner.js"></script>
     </head>
     <body>
-        <header>
-        <a href="index.html" id="logolink"><img src="img/logo.png" alt="Cirlce Solutions logo" id="logo"></a>
+    <header>
+          <a href="index.html" id="logolink"><img src="img/logo.png" alt="Cirlce Solutions logo" id="logo"></a>
             <div id="menuflex">
-                <ul id="menu">
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="pakketten.html">pakketten</a></li>
-                    <li><a href="specialisatie.html">specialisatie</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-            </div>
+				<nav class="navbar">
+					<ul class="nav-menu">
+						<li class="nav-item">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="pakketten.html" class="nav-link">pakketten</a>
+						</li>
+						<li class="nav-item">
+							<a href="specialisatie.html" class="nav-link">specialisatie</a>
+						</li>
+						<li class="nav-item">
+							<a href="contact.php" class="nav-link">contact</a>
+						</li>
+					</ul>
+					<div class="hamburger">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
+                </nav>
+			</div>
         </header>
+        <script src="js/hbmenu.js"></script>
         <div class="headerslider">
 
             <div class="slide" style="background-image: url(img/banner1.jpg);">
