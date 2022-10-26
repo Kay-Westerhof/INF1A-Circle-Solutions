@@ -552,14 +552,14 @@ a:visited {
         position: relative;
         z-index: 100;
         color: white;
-        margin-top: 35px;
+        margin-top: 3.5vw;
         transition: all 0.3s;
         transition-delay: 0.3s;
     }
     
     .grow:hover{
-        height: 350px;
-        width: 300px;
+        height: 17.6vw;
+        width: 16vw;
         background-color: #C7EAF8;
         border-radius: 50% 50% 10% 10%;
         border: 2px solid #799DAB;
@@ -570,11 +570,11 @@ a:visited {
         content: "";
         display: inline-block;
         position: absolute;
-        margin-left: -122px;
-        margin-top:261px;   
+        margin-left: -6.5vw;
+        margin-top:12.9vw;   
         background-color: #799DAB;
-        height: 60px;
-        width: 240px;
+        height: 3.2vw;
+        width: 12.8vw;
         border: 1px solid #FFFFFF;
         border-radius: 8px;
         font-family: 'Calibre';  
@@ -586,8 +586,8 @@ a:visited {
     }
     
     .grow:not(:hover){
-        height: 300px;
-        width: 300px;
+        height: 16vw;
+        width: 16vw;
         background-color: #C7EAF8;
         border-radius: 50%;
         border: 2px solid #799DAB;
@@ -597,9 +597,9 @@ a:visited {
 }
 @media only screen and (max-width: 576px) {
     .grow{
-        height: 225px;
-        min-width: 220px;
-        max-width: 220px;
+        height: 12vw;
+        min-width: 11.7vw;
+        max-width: 11.7vw;
         background-color: #C7EAF8;
         border-radius: 50% 50% 12.5% 12.5%;
         border: 2px solid #799DAB;
@@ -613,7 +613,7 @@ a:visited {
     }
      
     .titeltext{
-        margin-top: 45px;
+        margin-top: 2.4vw;
         font-size:20px;
     }
     
@@ -630,7 +630,7 @@ a:visited {
         position: relative;
         z-index: 100;
         color: #C7EAF8;
-        margin-top: 38px;
+        margin-top: 2vw;
         font-size: 20px;
     }
     
@@ -638,11 +638,11 @@ a:visited {
         content: "";
         display: inline-block;
         position: absolute;
-        margin-left:-75px;
-        margin-top:160px;   
+        margin-left:-4vw;
+        margin-top:8.5vw;   
         background-color: #799DAB;
-        height: 50px;
-        width: 150px;
+        height: 2.7vw;
+        width: 8vw;
         border: 1px solid #FFFFFF;
         border-radius: 8px;
         font-family: 'Calibre';
@@ -656,7 +656,7 @@ a:visited {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        min-height: 380px;
+        min-height: 20.2vw;
         margin-top: 1%;
     }
 }
