@@ -224,6 +224,7 @@ footer{
   justify-content: space-between;
   position: relative;
   bottom: -80px;
+  font-family: Calibre, sans-serif;
 }
 
 .previous {
