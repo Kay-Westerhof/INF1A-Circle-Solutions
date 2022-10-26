@@ -99,7 +99,7 @@ a{
 }
 .nav-menu{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	gap: 60px;
 }
@@ -131,7 +131,7 @@ a{
 	.nav-menu{
 		position: fixed;
 		left: -100%;
-		top: 70px;
+		top: 11%;
 		gap: 0;
 		flex-direction: column;
 		background-color: white;
@@ -144,6 +144,7 @@ a{
 	}
 	.nav-menu.active{
 		left: 0;
+        height: 20%;
 	}
 }
 .headerslider {
