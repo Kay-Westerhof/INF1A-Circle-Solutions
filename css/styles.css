@@ -215,8 +215,6 @@ footer{
     width: 10%;
 }
 
-/*contactpagina*/
-
 #contactheader{
 	text-align: center;
 }
@@ -249,6 +247,11 @@ footer{
 label ,name , mail ,phonenumber ,message {
 	color: #799DAB;
 	font-size: 20px;
+    font-family: Calibre, sans-serif;
+}
+
+input[type=text], placeholder{
+	font-family: Calibre, sans-serif;
 }
 
 input[type=text], select, textarea {
