@@ -218,6 +218,31 @@ footer{
 	text-align: center;
 }
 
+.BT{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: -80px;
+}
+
+.previous {
+  background-color: #C7EAF8;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 7%;
+}
+
+.next2 {
+  background-color: #C7EAF8;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 7%;
+}
+
 label ,name , mail ,phonenumber ,message {
 	color: #799DAB;
 	font-size: 20px;
