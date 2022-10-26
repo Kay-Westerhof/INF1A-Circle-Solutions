@@ -225,6 +225,7 @@ footer{
   position: relative;
   bottom: -80px;
   font-family: Calibre, sans-serif;
+  margin: 15px;
 }
 
 .previous {
