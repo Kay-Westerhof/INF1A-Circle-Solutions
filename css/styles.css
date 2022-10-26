@@ -213,6 +213,7 @@ footer{
     width: 10%;
 }
 
+/*contactpagina*/
 
 #contactheader{
 	text-align: center;
@@ -281,15 +282,19 @@ input[type=submit] {
 aside{
 	font-size: 25px;
 	margin-left: 80px;
+	margin-top:19px;
 	
 }
 
-/*.containercontact2{
-	
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding: 200px 0 0 100px;
-}*/
+#contacticon{
+	height:45px;
+	width:auto;
+}
+
+.contacticonposition{
+	display: flex;
+	align-items:center;
+}
 
 #kantoorafb{
 	width: 440px;

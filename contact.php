@@ -45,13 +45,8 @@
 					if($_SERVER["REQUEST_METHOD"] == "POST"){
 					$name = filter_input(INPUT_POST, "firstname");
 					$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
-					$subject = filter_input(INPUT_POST, "subject");
+					$phonenumber = filter_input(INPUT_POST, "phonenumber");
 					$message = filter_input(INPUT_POST, "message");
-					$newsletter = filter_input(INPUT_POST, "subscribe");
-					$rick = $_POST["rick"];
-					$pass = filter_input(INPUT_POST, "password");
-
-					var_dump($rick);
 					}
 				?>
             
@@ -74,17 +69,22 @@
 
 					  </form>
 					  
-					  
 					  	<aside>
+							<div class="contacticonposition">
+								<img id="contacticon" src="img/websiteicon.png" alt="websiteicon">
 								<p> circlesolutions.com </p>
+							</div>
+							<div class="contacticonposition">
+								<img id="contacticon" src="img/mailicon.png" alt="mailicon">
 								<p> hi@circlesolutions.com </p>
+							</div>
+							<div class="contacticonposition">
+								<img id="contacticon" src="img/phoneicon.png" alt="phoneicon">
 								<p> +31 612345678 </p>
+							</div>
 								<img id="kantoorafb" src="img/kantoor.png" alt="kantoor">
 						</aside>
 					</div>
-					
-					
-            
 
         </main>
         <footer>
