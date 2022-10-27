@@ -484,6 +484,17 @@ aside{
     margin: auto;
 }
 
+#aboutuscirkels{
+    display: block;
+    margin: auto;
+}
+
+#aboutuscirkels img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
 @media only screen and (max-width: 576px) {
     .titleSection{
         width: 80%;
@@ -521,17 +532,9 @@ aside{
     .footericon{
         width: 10%;
     }
-}
-
-#aboutuscirkels{
-    display: block;
-    margin: auto;
-}
-
-#aboutuscirkels img{
-    display: block;
-    margin: auto;
-    width: 60%;
+    #aboutuscirkels img{
+        width: 90%;
+    }
 }
 
 #pakkettenSection{
