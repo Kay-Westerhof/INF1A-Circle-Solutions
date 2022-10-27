@@ -288,7 +288,7 @@ footer{
 }
 
 .footericon{
-    width: 10%;
+    width: 15%;
 }
 
 #contactheader{
@@ -509,6 +509,9 @@ aside{
     }
     #footericons{
         justify-content: space-around;
+    }
+    .footericon{
+        width: 10%;
     }
 }
 
