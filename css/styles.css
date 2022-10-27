@@ -167,7 +167,6 @@ a{
     display: none;
     background-position: center;
     background-size: cover;
-	border-color: black;
     text-align: center;
     animation-name: fade;
     animation-duration: 2s;
@@ -491,6 +490,7 @@ aside{
     }
     #whySection{
         grid-template-columns: 1fr 2fr 1fr;
+        padding-bottom:2%;
     }
     #whySection img{
         grid-column: 2;
