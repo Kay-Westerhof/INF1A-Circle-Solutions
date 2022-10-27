@@ -393,7 +393,7 @@ input[type=submit] {
 
 .open-popup{
 	visibility: visible;
-	top: 50%;
+	top: 100%;
 	transform: translate(-50%,-50%) scale(1);
 	
 }
