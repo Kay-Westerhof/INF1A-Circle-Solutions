@@ -259,6 +259,14 @@ a{
     font-weight: bold;
 }
 
+@media(max-width:768px){
+    .titleButton{
+        width: 30%;
+        padding-top: 2%;
+        padding-bottom: 1.5%;
+    }
+}
+
 footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
