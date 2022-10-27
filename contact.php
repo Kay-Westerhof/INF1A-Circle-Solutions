@@ -54,78 +54,92 @@
             </div>
         </div>
         <main>
+			<div class="containercontact">
+				<div id="contactheader">
+					<h1> contact </h1>
+				</div>
+			
+				<form action="" method="POST">
+
+					<label for="name">Naam</label>
+					<input type="text" id="name" name="Naam" placeholder="Naam...">
+
+					<label for="mail">E-mail</label>
+					<input type="text" id="mail" name="E-mail" placeholder="E-mail...">
+
+					<label for="phonenumber">Telefoon nummer</label>
+					<input type="text" id="phonenumber" name="phonenumber" placeholder="Telefoon nummer...">
+
+					<label for="message">Bericht</label>
+					<textarea id="message" name="message" placeholder="..." style="height:200px"></textarea>
+					<input type="submit" onclick="openPopup()" value="Verzenden">
+				</form>
+			
+				<aside>
+					<div class="contacticonposition">
+						<img id="contacticon" src="img/websiteicon.png" alt="websiteicon">
+						<p> circlesolutions.com </p>
+					</div>
+					<div class="contacticonposition">
+						<img id="contacticon" src="img/mailicon.png" alt="mailicon">
+						<p> hi@circlesolutions.com </p>
+					</div>
+					<div class="contacticonposition">
+						<img id="contacticon" src="img/phoneicon.png" alt="phoneicon">
+						<p> +31 612345678 </p>
+					</div>
+						<img id="kantoorafb" src="img/kantoor.png" alt="kantoor">
+				</aside>
+				
+				
+				<div class="popup" id="popup">
+				
+					<img src="img/check.png" alt="check">
+					<h2>Bericht verzonden!</h2>
+					<p>Verwacht een antwoord binnen 3 dagen</p>
+					<button type="button" onclick="closePopup()">OK</button>
+					
+				</div>
+
+				<script>
+					let popup = document.getElementById("popup");
+					
+					function openPopup(){
+						popup.classList.add("open-popup");
+					}
+					
+					function closePopup(){
+						popup.classList.remove("open-popup");
+					}
+				</script>
 				<?php
 					if($_SERVER["REQUEST_METHOD"] == "POST"){
-					$name = filter_input(INPUT_POST, "firstname");
-					$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
-					$phonenumber = filter_input(INPUT_POST, "phonenumber");
-					$message = filter_input(INPUT_POST, "message");
-					
-					
+						$name = filter_input(INPUT_POST, "firstname");
+						$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+						$phonenumber = filter_input(INPUT_POST, "phonenumber");
+						$message = filter_input(INPUT_POST, "message");
+						
+						// Enter a mail from which the form will send the email (noreply mail)
+						$email_from = '';
+
+						$email_subject = "Contact formulier";
+						$email_body = "Naam: $name \n".
+                                          "Email: $email \n".
+										  "Telefoon: $phonenumber \n".
+                                          "Bericht: $message \n";
+                            
+						// Enter the email adress that will receive the filled in form
+						$to_email = "";
+
+						$headers = "From: $email_from \r\n";
+						$headers .= "Reply-To: $email \r\n";
+						
+						mail($to_email,$email_subject,$email_body,$headers);
+						echo "<script>openPopup();</script>";
 					}
 				?>
-            
-					<div class="containercontact">
-						<div id="contactheader">
-							<h1> contact </h1>
-						</div>
-					
-					  <form action="contact.php">
-
-						<label for="name">Naam</label>
-						<input type="text" id="name" name="Naam" placeholder="Naam...">
-
-						<label for="mail">E-mail</label>
-						<input type="text" id="mail" name="E-mail" placeholder="E-mail...">
- 
-						<label for="phonenumber">Telefoon nummer</label>
-						<input type="text" id="phonenumber" name="phonenumber" placeholder="Telefoon nummer...">
-
-						<label for="message">Bericht</label>
-						<textarea id="message" name="message" placeholder="..." style="height:200px"></textarea>
-
-					  </form>
-					
-					  	<aside>
-							<div class="contacticonposition">
-								<img id="contacticon" src="img/websiteicon.png" alt="websiteicon">
-								<p> circlesolutions.com </p>
-							</div>
-							<div class="contacticonposition">
-								<img id="contacticon" src="img/mailicon.png" alt="mailicon">
-								<p> hi@circlesolutions.com </p>
-							</div>
-							<div class="contacticonposition">
-								<img id="contacticon" src="img/phoneicon.png" alt="phoneicon">
-								<p> +31 612345678 </p>
-							</div>
-								<img id="kantoorafb" src="img/kantoor.png" alt="kantoor">
-						</aside>
-						
-						<input type="submit" onclick="openPopup()" value="Verzenden">
-						
-						<div class="popup" id="popup">
-						
-							<img src="img/check.png" alt="check">
-							<h2>Bericht verzonden!</h2>
-							<p>Verwacht een antwoord binnen 3 dagen</p>
-							<button type="button" onclick="closePopup()">OK</button>
-							
-						</div>
-						
-						<script>
-							let popup = document.getElementById("popup");
-							
-							function openPopup(){
-								popup.classList.add("open-popup");
-							}
-							
-							function closePopup(){
-								popup.classList.remove("open-popup");
-							}
-						</script>
-						
-					</div>
+				
+			</div>
 
         </main>
         <footer>
