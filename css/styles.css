@@ -604,7 +604,7 @@ a:link {
       text-align: center;
       margin-left: -3vw;
   }
-  @media only screen and (min-width: 576px){
+  @media only screen and (min-width: 769px){
       .grow:hover .knoptext{
           position: relative;
           z-index: 100;
@@ -652,7 +652,7 @@ a:link {
           transition-delay: 0.5s;
       }
   }
-  @media only screen and (max-width: 576px) {
+  @media only screen and (max-width: 768px) {
       .grow{
           height: 50vw;
           min-width: 49.7vw;
