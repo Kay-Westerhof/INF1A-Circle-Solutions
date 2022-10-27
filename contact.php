@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/calibre.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/banner.js"></script>
     </head>
     <body>
     <header>
@@ -15,7 +16,7 @@
 				<nav class="navbar">
 					<ul class="nav-menu">
 						<li class="nav-item">
-							<a href="index.html" class="nav-link">home</a>
+							<a href="index.html" class="nav-link">Home</a>
 						</li>
 						<li class="nav-item">
 							<a href="pakketten.html" class="nav-link">pakketten</a>
@@ -52,11 +53,7 @@
                 <div class="dot" onclick="currentSlide(3)">&nbsp;</div>
             </div>
         </div>
-		<script src="js/banner.js"></script>
         <main>
-			<div id="contactheader">
-				<h1> contact </h1>
-			</div>
 				<?php
 					if($_SERVER["REQUEST_METHOD"] == "POST"){
 					$name = filter_input(INPUT_POST, "firstname");
@@ -69,7 +66,9 @@
 				?>
             
 					<div class="containercontact">
-					
+						<div id="contactheader">
+							<h1> contact </h1>
+						</div>
 					
 					  <form action="contact.php">
 
