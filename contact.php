@@ -63,6 +63,8 @@
 					$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
 					$phonenumber = filter_input(INPUT_POST, "phonenumber");
 					$message = filter_input(INPUT_POST, "message");
+					
+					
 					}
 				?>
             
@@ -81,9 +83,32 @@
 						<label for="message">Bericht</label>
 						<textarea id="message" name="message" placeholder="..." style="height:200px"></textarea>
 
-						<input type="submit" value="Verzenden">
+						<input type="submit" onclick="openPopup()" value="Verzenden">
 
 					  </form>
+					  
+					  
+					  
+					  <div class="popup" id="popup">
+							<img src="img/check.png" alt="check">
+							<h2>Bericht verzonden!</h2>
+							<p>Verwacht een antwoord binnen 3 dagen</p>
+							<button type="button" onclick="closePopup()">OK</button>
+							
+						</div>
+						
+						<script>
+							let popup = document.getElementById("popup");
+							
+							function openPopup(){
+								popup.classList.add("open-popup");
+							}
+							
+							function closePopup(){
+								popup.classList.remove("open-popup");
+							}
+						</script>
+						
 					  
 					  	<aside>
 							<div class="contacticonposition">
