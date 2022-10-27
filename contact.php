@@ -69,6 +69,8 @@
 				?>
             
 					<div class="containercontact">
+					
+					
 					  <form action="contact.php">
 
 						<label for="name">Naam</label>
@@ -83,13 +85,28 @@
 						<label for="message">Bericht</label>
 						<textarea id="message" name="message" placeholder="..." style="height:200px"></textarea>
 
-						<input type="submit" onclick="openPopup()" value="Verzenden">
-
 					  </form>
-					  
-					  
-					  
-					  <div class="popup" id="popup">
+					
+					  	<aside>
+							<div class="contacticonposition">
+								<img id="contacticon" src="img/websiteicon.png" alt="websiteicon">
+								<p> circlesolutions.com </p>
+							</div>
+							<div class="contacticonposition">
+								<img id="contacticon" src="img/mailicon.png" alt="mailicon">
+								<p> hi@circlesolutions.com </p>
+							</div>
+							<div class="contacticonposition">
+								<img id="contacticon" src="img/phoneicon.png" alt="phoneicon">
+								<p> +31 612345678 </p>
+							</div>
+								<img id="kantoorafb" src="img/kantoor.png" alt="kantoor">
+						</aside>
+						
+						<input type="submit" onclick="openPopup()" value="Verzenden">
+						
+						<div class="popup" id="popup">
+						
 							<img src="img/check.png" alt="check">
 							<h2>Bericht verzonden!</h2>
 							<p>Verwacht een antwoord binnen 3 dagen</p>
@@ -109,22 +126,6 @@
 							}
 						</script>
 						
-					  
-					  	<aside>
-							<div class="contacticonposition">
-								<img id="contacticon" src="img/websiteicon.png" alt="websiteicon">
-								<p> circlesolutions.com </p>
-							</div>
-							<div class="contacticonposition">
-								<img id="contacticon" src="img/mailicon.png" alt="mailicon">
-								<p> hi@circlesolutions.com </p>
-							</div>
-							<div class="contacticonposition">
-								<img id="contacticon" src="img/phoneicon.png" alt="phoneicon">
-								<p> +31 612345678 </p>
-							</div>
-								<img id="kantoorafb" src="img/kantoor.png" alt="kantoor">
-						</aside>
 					</div>
 
         </main>
