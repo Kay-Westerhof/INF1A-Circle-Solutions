@@ -593,13 +593,14 @@ a:link {
   .pakkettentekst{
       font-size: 1.1em;
       text-align: center;
+      margin-left:-3vw;
   }
   @media only screen and (min-width: 769px){
       .grow:hover .knoptext{
           position: relative;
           z-index: 100;
           color: white;
-          margin-top: 2.8vw;
+          margin-top: 1.2vw;
           transition: all 0.3s;
           transition-delay: 0.3s;
       }
