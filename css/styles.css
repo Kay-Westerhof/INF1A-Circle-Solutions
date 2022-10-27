@@ -498,20 +498,20 @@ a:visited {
 }
 
 .grow{
-    height: 300px;
-    width: 300px;
+    height: 20vw;
+    width: 20vw;
     background-color: #C7EAF8;
     border-radius: 50%;
     border: 2px solid #799DAB;
     font-family: 'Calibre';
-    font-size: 13px; 
+    font-size: 0.9vw; 
     text-align: center;
     color: #799DAB;
 }
  
 .titeltext{
-    margin-top: 75px;
-	font-size: 2.5em;
+    margin-top: 3.9vw;
+	font-size: 2.3em;
 }
 
 .knoptext{
@@ -523,15 +523,15 @@ a:visited {
     content: "";
     display: inline-block;
     position: absolute;
-    margin-left: -122px;
-    margin-top: 261px;   
+    margin-left: -8.2vw;
+    margin-top: 17.5vw;   
     background-color: transparent;
-    height: 60px;
-    width: 240px;
+    height: 4vw;
+    width: 16.1vw;
     border: 1px solid transparent;
     border-radius: 8px;
     font-family: 'Calibre';
-    font-size: 13px;
+    font-size: 0.9vw;
     text-align: center;
     transition: all 0.6s;
 }
@@ -539,12 +539,12 @@ a:visited {
 #pakketbuttonSection{
 	display: flex;
 	justify-content: space-evenly;
-	min-height: 380px;
+	min-height: 25.4vw;
 	margin-top: 1%;
 }
 
 .pakkettentekst{
-	font-size: 1.4em;
+	font-size: 1.1em;
 	text-align: left;
 }
 @media only screen and (min-width: 576px){
@@ -552,14 +552,14 @@ a:visited {
         position: relative;
         z-index: 100;
         color: white;
-        margin-top: 3.5vw;
+        margin-top: 2.9vw;
         transition: all 0.3s;
         transition-delay: 0.3s;
     }
     
     .grow:hover{
-        height: 17.6vw;
-        width: 16vw;
+        height: 18vw;
+        width: 18vw;
         background-color: #C7EAF8;
         border-radius: 50% 50% 10% 10%;
         border: 2px solid #799DAB;
@@ -578,16 +578,16 @@ a:visited {
         border: 1px solid #FFFFFF;
         border-radius: 8px;
         font-family: 'Calibre';  
-        font-size: 13px;
-        line-height: 16px;
+        font-size: 0.9vw;
+        line-height: 1.1vw;
         text-align: center;
         transition: all 0.5s;
         transition-delay: 0.3s;    
     }
     
     .grow:not(:hover){
-        height: 16vw;
-        width: 16vw;
+        height: 18vw;
+        width: 18vw;
         background-color: #C7EAF8;
         border-radius: 50%;
         border: 2px solid #799DAB;
@@ -597,24 +597,24 @@ a:visited {
 }
 @media only screen and (max-width: 576px) {
     .grow{
-        height: 12vw;
-        min-width: 11.7vw;
-        max-width: 11.7vw;
+        height: 60vw;
+        min-width: 59.7vw;
         background-color: #C7EAF8;
         border-radius: 50% 50% 12.5% 12.5%;
         border: 2px solid #799DAB;
         font-family: 'Calibre';
         font-style: normal;
         font-weight: 700;
-        font-size: 13px;
-        line-height: 16px;
+        font-size: 35.5vw;
+        line-height: 4.6vw;
         text-align: center;
         color: #799DAB;
+        margin-bottom:10vw;
     }
      
     .titeltext{
-        margin-top: 2.4vw;
-        font-size:20px;
+        margin-top: 12.4vw;
+        font-size:6.3vw;
     }
     
     .knoptext{
@@ -622,34 +622,35 @@ a:visited {
     }
 
     .pakkettentekst{
-        font-size: 11px;
+        font-size: 3.4vw;
         text-align: left;
+        margin-top:2vw;
     }
     
     .grow .knoptext{
         position: relative;
         z-index: 100;
         color: #C7EAF8;
-        margin-top: 2vw;
-        font-size: 20px;
+        margin-top:9vw;
+        font-size: 5.3vw;
     }
     
     .grow::before{
         content: "";
         display: inline-block;
         position: absolute;
-        margin-left:-4vw;
-        margin-top:8.5vw;   
+        margin-left:-21.745vw;
+        margin-top:43.5vw;   
         background-color: #799DAB;
-        height: 2.7vw;
-        width: 8vw;
+        height: 8.7vw;
+        width: 43vw;
         border: 1px solid #FFFFFF;
         border-radius: 8px;
         font-family: 'Calibre';
         font-style: normal;
         font-weight: 700;
-        font-size: 13px;
-        line-height: 16px;
+        font-size: 0.9vw;
+        line-height: 1.1vw;
         text-align: center; 
     }
     #pakketbuttonSection{
