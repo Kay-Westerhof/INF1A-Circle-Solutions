@@ -75,6 +75,11 @@ header{
     margin-right: 2%;
 }
 
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 header{
 	background-color: white;
 }
@@ -97,9 +102,6 @@ a{
 	justify-content: space-around;
 	align-items: center;
 	gap: 60px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 .navbranding{
 	font-size: 1,4em;
@@ -553,7 +555,13 @@ a:visited {
     text-align: center;
     color: #799DAB;
 }
- 
+
+@media(max-width:560px){
+    .grow{
+        font-size: 5px;
+    }
+}
+
 .titeltext{
     margin-top: 75px;
 	font-size: 2.5em;
