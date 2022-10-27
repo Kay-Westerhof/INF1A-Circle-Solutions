@@ -167,6 +167,7 @@ a{
     display: none;
     background-position: center;
     background-size: cover;
+	border-color: black;
     text-align: center;
     animation-name: fade;
     animation-duration: 2s;
