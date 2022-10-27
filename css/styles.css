@@ -593,7 +593,9 @@ a:link {
   .pakkettentekst{
       font-size: 1.1em;
       text-align: center;
-      margin-left:-3vw;
+      margin-left:auto;
+      margin-right: auto;
+      padding:0;
   }
   @media only screen and (min-width: 769px){
       .grow:hover .knoptext{
@@ -672,7 +674,9 @@ a:link {
       .pakkettentekst{
           font-size: 2.9vw;
           text-align: center;
-          margin-left: -9vw;
+          margin-left: auto;
+          margin-right:auto;
+          padding:0;
       }
       
       .grow .knoptext{
