@@ -556,12 +556,6 @@ a:visited {
     color: #799DAB;
 }
 
-@media(max-width:560px){
-    .grow{
-        font-size: 5px;
-    }
-}
-
 .titeltext{
     margin-top: 75px;
 	font-size: 2.5em;
