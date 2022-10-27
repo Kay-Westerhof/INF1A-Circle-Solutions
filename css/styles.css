@@ -538,182 +538,183 @@ aside{
 /* Pakket cirkels */
 
 a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-.grow{
-    height: 20vw;
-    width: 20vw;
-    background-color: #C7EAF8;
-    border-radius: 50%;
-    border: 2px solid #799DAB;
-    font-family: 'Calibre';
-    font-size: 0.9vw; 
-    text-align: center;
-    color: #799DAB;
-}
- 
-.titeltext{
-    margin-top: 3.9vw;
-	font-size: 2.3em;
-}
-
-.knoptext{
-    color:transparent;
-	font-size: 2em;
-}
-
-.grow::before{
-    content: "";
-    display: inline-block;
-    position: absolute;
-    margin-left: -8.2vw;
-    margin-top: 17.5vw;   
-    background-color: transparent;
-    height: 4vw;
-    width: 16.1vw;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    font-family: 'Calibre';
-    font-size: 0.9vw;
-    text-align: center;
-    transition: all 0.6s;
-}
-
-#pakketbuttonSection{
-	display: flex;
-	justify-content: space-evenly;
-	min-height: 25.4vw;
-	margin-top: 1%;
-}
-
-.pakkettentekst{
-	font-size: 1.1em;
-	text-align: left;
-}
-@media only screen and (min-width: 576px){
-    .grow:hover .knoptext{
-        position: relative;
-        z-index: 100;
-        color: white;
-        margin-top: 2.9vw;
-        transition: all 0.3s;
-        transition-delay: 0.3s;
-    }
-    
-    .grow:hover{
-        height: 18vw;
-        width: 18vw;
-        background-color: #C7EAF8;
-        border-radius: 50% 50% 10% 10%;
-        border: 2px solid #799DAB;
-        transition: height 0.3s, border-radius 0.3s;
-    }
-
-    .grow:hover::before{
-        content: "";
-        display: inline-block;
-        position: absolute;
-        margin-left: -6.5vw;
-        margin-top:12.9vw;   
-        background-color: #799DAB;
-        height: 3.2vw;
-        width: 12.8vw;
-        border: 1px solid #FFFFFF;
-        border-radius: 8px;
-        font-family: 'Calibre';  
-        font-size: 0.9vw;
-        line-height: 1.1vw;
-        text-align: center;
-        transition: all 0.5s;
-        transition-delay: 0.3s;    
-    }
-    
-    .grow:not(:hover){
-        height: 18vw;
-        width: 18vw;
-        background-color: #C7EAF8;
-        border-radius: 50%;
-        border: 2px solid #799DAB;
-        transition: height 0.3s, border-radius 0.3s;
-        transition-delay: 0.5s;
-    }
-}
-@media only screen and (max-width: 576px) {
-    .grow{
-        height: 60vw;
-        min-width: 59.7vw;
-        background-color: #C7EAF8;
-        border-radius: 50% 50% 12.5% 12.5%;
-        border: 2px solid #799DAB;
-        font-family: 'Calibre';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 35.5vw;
-        line-height: 4.6vw;
-        text-align: center;
-        color: #799DAB;
-        margin-bottom:10vw;
-    }
-     
-    .titeltext{
-        margin-top: 12.4vw;
-        font-size:6.3vw;
-    }
-    
-    .knoptext{
-        color:transparent;
-    }
-
-    .pakkettentekst{
-        font-size: 3.4vw;
-        text-align: left;
-        margin-top:2vw;
-    }
-    
-    .grow .knoptext{
-        position: relative;
-        z-index: 100;
-        color: #C7EAF8;
-        margin-top:9vw;
-        font-size: 5.3vw;
-    }
-    
-    .grow::before{
-        content: "";
-        display: inline-block;
-        position: absolute;
-        margin-left:-21.745vw;
-        margin-top:43.5vw;   
-        background-color: #799DAB;
-        height: 8.7vw;
-        width: 43vw;
-        border: 1px solid #FFFFFF;
-        border-radius: 8px;
-        font-family: 'Calibre';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 0.9vw;
-        line-height: 1.1vw;
-        text-align: center; 
-    }
-    #pakketbuttonSection{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        min-height: 20.2vw;
-        margin-top: 1%;
-    }
-}
-
-.grow li{
-    text-align: center;
-}
-
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  .grow{
+      height: 20vw;
+      width: 20vw;
+      background-color: #C7EAF8;
+      border-radius: 50%;
+      border: 2px solid #799DAB;
+      font-family: 'Calibre';
+      font-size: 0.9vw; 
+      text-align: center;
+      color: #799DAB;
+  }
+   
+  .titeltext{
+      margin-top: 3.9vw;
+      font-size: 2.3em;
+  }
+  
+  .knoptext{
+      color:transparent;
+      font-size: 2em;
+  }
+  
+  .grow::before{
+      content: "";
+      display: inline-block;
+      position: absolute;
+      margin-left: -8.2vw;
+      margin-top: 17.5vw;   
+      background-color: transparent;
+      height: 4vw;
+      width: 16.1vw;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      font-family: 'Calibre';
+      font-size: 0.9vw;
+      text-align: center;
+      transition: all 0.6s;
+  }
+  
+  #pakketbuttonSection{
+      display: flex;
+      justify-content: space-evenly;
+      min-height: 25.4vw;
+      margin-top: 1%;
+  }
+  
+  .pakkettentekst{
+      font-size: 1.1em;
+      text-align: center;
+      margin-left: -3vw;
+  }
+  @media only screen and (min-width: 576px){
+      .grow:hover .knoptext{
+          position: relative;
+          z-index: 100;
+          color: white;
+          margin-top: 1.2vw;
+          transition: all 0.3s;
+          transition-delay: 0.3s;
+      }
+      
+      .grow:hover{
+          height: 18vw;
+          width: 18vw;
+          background-color: #C7EAF8;
+          border-radius: 50% 50% 10% 10%;
+          border: 2px solid #799DAB;
+          transition: height 0.3s, border-radius 0.3s;
+      }
+  
+      .grow:hover::before{
+          content: "";
+          display: inline-block;
+          position: absolute;
+          margin-left: -6.5vw;
+          margin-top:12.9vw;   
+          background-color: #799DAB;
+          height: 3.2vw;
+          width: 12.8vw;
+          border: 1px solid #FFFFFF;
+          border-radius: 8px;
+          font-family: 'Calibre';  
+          font-size: 0.9vw;
+          line-height: 1.1vw;
+          text-align: center;
+          transition: all 0.5s;
+          transition-delay: 0.3s;    
+      }
+      
+      .grow:not(:hover){
+          height: 18vw;
+          width: 18vw;
+          background-color: #C7EAF8;
+          border-radius: 50%;
+          border: 2px solid #799DAB;
+          transition: height 0.3s, border-radius 0.3s;
+          transition-delay: 0.5s;
+      }
+  }
+  @media only screen and (max-width: 576px) {
+      .grow{
+          height: 60vw;
+          min-width: 59.7vw;
+          background-color: #C7EAF8;
+          border-radius: 50% 50% 12.5% 12.5%;
+          border: 2px solid #799DAB;
+          font-family: 'Calibre';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 35.5vw;
+          line-height: 4.6vw;
+          text-align: center;
+          color: #799DAB;
+          margin-bottom:10vw;
+      }
+       
+      .titeltext{
+          margin-top: 12.4vw;
+          font-size:6.3vw;
+      }
+      
+      .knoptext{
+          color:transparent;
+      }
+  
+      .pakkettentekst{
+          font-size: 3.4vw;
+          text-align: left;
+          margin-top:2vw;
+      }
+      
+      .grow .knoptext{
+          position: relative;
+          z-index: 100;
+          color: #C7EAF8;
+          margin-top:9vw;
+          font-size: 5.3vw;
+      }
+      
+      .grow::before{
+          content: "";
+          display: inline-block;
+          position: absolute;
+          margin-left:-21.745vw;
+          margin-top:43.5vw;   
+          background-color: #799DAB;
+          height: 8.7vw;
+          width: 43vw;
+          border: 1px solid #FFFFFF;
+          border-radius: 8px;
+          font-family: 'Calibre';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 0.9vw;
+          line-height: 1.1vw;
+          text-align: center; 
+      }
+      #pakketbuttonSection{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          min-height: 20.2vw;
+          margin-top: 1%;
+      }
+  }
+  
+  .grow li{
+      text-align: center;
+  }
+  
 
 
 
