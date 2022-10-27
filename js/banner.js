@@ -40,6 +40,6 @@ for (i = 0; i < slides.length; i++) {
 slideIndex++;
 if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "flex";
-    setTimeout(showSlides, 5000); // Change image every 2 seconds
+    setTimeout(showSlides, 20000); // Change image every 2 seconds
     dots[slideIndex-1].className += " active";
 }
