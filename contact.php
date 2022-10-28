@@ -61,18 +61,18 @@
 			
 				<form action="" method="POST">
 
-					<label for="name">Naam</label>
-					<input type="text" id="name" name="Naam" placeholder="Naam...">
+					<label for="name">Naam*</label>
+					<input type="text" id="name" name="Naam" placeholder="Naam..." required>
 
-					<label for="mail">E-mail</label>
-					<input type="text" id="mail" name="E-mail" placeholder="E-mail...">
+					<label for="mail">E-mail*</label>
+					<input type="text" id="mail" name="E-mail" placeholder="E-mail..." required>
 
 					<label for="phonenumber">Telefoon nummer</label>
 					<input type="text" id="phonenumber" name="phonenumber" placeholder="Telefoon nummer...">
 
-					<label for="message">Bericht</label>
-					<textarea id="message" name="message" placeholder="..." style="height:200px"></textarea>
-					<input type="submit" onclick="openPopup()" value="Verzenden">
+					<label for="message">Bericht*</label>
+					<textarea id="message" name="message" placeholder="..." style="height:200px" required></textarea>
+					<input type="submit" value="Verzenden">
 				</form>
 			
 				<aside>
